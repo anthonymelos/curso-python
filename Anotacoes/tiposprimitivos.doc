@@ -1,0 +1,7 @@
+Tipos primitivos
+
+Principais:
+-> int: 7, -4
+-> float: 3.5
+-> bool: True, False (devem ter a letra maiúscula)
+-> str: 'olá', '' (string vazia)

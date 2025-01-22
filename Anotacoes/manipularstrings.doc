@@ -1,0 +1,13 @@
+Manipular print (string format):
+
+print(f'Olá, {nome}! Seja bem vindo(a)')
+
+Outro exemplo:
+
+x = 5
+y = 3
+print(f'A soma de {x} e {y} é {x + y}')
+
+Tipo primitivo no print
+
+print(type(variavel))
