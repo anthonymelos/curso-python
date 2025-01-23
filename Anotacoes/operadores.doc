@@ -1,0 +1,17 @@
+Operadores Aritméticos
+
++ -> Soma
+- -> Subtração
+* -> Multiplicação
+/ -> Divisão
+** -> Potenciação 
+// -> Divisão inteira
+% -> Resto da divisão
+== -> É igual a...
+
+Ordem de precedência 
+
+1- ()
+2- **
+3- *, /, //, %
+4- +, -

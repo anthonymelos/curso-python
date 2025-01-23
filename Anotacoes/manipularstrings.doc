@@ -1,4 +1,4 @@
-Manipular print (string format):
+    Manipular print (string format):
 
 print(f'Olá, {nome}! Seja bem vindo(a)')
 
@@ -8,6 +8,23 @@ x = 5
 y = 3
 print(f'A soma de {x} e {y} é {x + y}')
 
-Tipo primitivo no print
+
+    Tipo primitivo no print
 
 print(type(variavel))
+
+
+    Formatação de casas decimais no print
+
+pi = 3.14159
+print(f'O valor de pi com duas casas decimais: {pi:.2f}')
+
+w = 4
+p = 3
+div = w / p
+print('A divisão é {div:.3f}')
+
+
+-> end = '' -> Essa formatação não quebra a linha no final
+
+-> \n -> quebra a linha sem precisar de aspas. 
