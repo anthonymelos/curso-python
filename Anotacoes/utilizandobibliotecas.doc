@@ -1,0 +1,21 @@
+        Utilizando módulos 
+
+Importar bibliotecas ao python serve para adicionar funncionalidades ao código que antes não eram necessários, para que a linguagem pudesse funcionar de forma leve e eficiente. Mas adicionando as bibliotecas, o python pode ter outras funcionalidades
+
+Para importar bibliotecas:
+
+import nomedabiblioteca
+
+ou para importar apenas uma parte da biblioteca por exemplo:
+
+from doce import pudim
+
+Outro exemplo da biblioteca math. Existe a função ceil, que arredonda números para cima. Importando a biblioteca math todas as funcionalidades seriam importadas. Mas importando apenas a funcionalidade caso se queira usar apenas ela no código, é possível. Usando:
+
+from math import ceil
+
+E para duas apenas: 
+
+from math import ceil, sqrt
+
+Ao usar dessa maneira, o método já é trago para a funcão. Então não é necessário usar math.ceil(), apenas ceil()
