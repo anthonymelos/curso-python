@@ -38,7 +38,25 @@ frase = 'Anthony de Melo'
 
 -> frase.title() #Transforma as primeiras letras de todas as palavras em maiúsculas. 
 
--> frase.strip() #Remove os espaços iniciais e do final das strings, caso hajam. frase.rstrip() remove apenas os espaços da direita da string. 
+-> frase.strip() #Remove os espaços iniciais e do final das strings, caso hajam. frase.rstrip() remove apenas os espaços da direita da string. E o lstrip da esquerda. 
 
+    Divisão
+
+-> frase.split() #Fará divisões na string onde tiver espaços, indexando as novas strings.
+
+    Junção 
+
+-> '-'.join(frase) #Anthony-de-Melo
+
+
+Usar três aspas em um print para linhas quebradas formata normalmente o texto:
+
+aacodcnmodcmwocismdkk
+iasdmskcmsklcmslkdskl
+ocismdkldnskcneiwcscc
+
+print("""aacodcnmodcmwocismdkk
+iasdmskcmsklcmslkdskl
+ocismdkldnskcneiwcscc""")
 
 
