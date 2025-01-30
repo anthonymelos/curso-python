@@ -34,7 +34,11 @@ frase = 'Anthony de Melo'
 
 -> frase.lower() #Transforma tudo para minúsculas.
 
--> frase.capitalize() #Transforma apenas a primeira letra 
+-> frase.capitalize() #Transforma apenas a primeira letra de toda a string em maiúscula. 
+
+-> frase.title() #Transforma as primeiras letras de todas as palavras em maiúsculas. 
+
+-> frase.strip() #Remove os espaços iniciais e do final das strings, caso hajam. frase.rstrip() remove apenas os espaços da direita da string. 
 
 
 
