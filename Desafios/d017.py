@@ -1,16 +1,15 @@
-#Crie um programa que leia um número real qualquer pelo teclado e mostre na tela a sua porção inteira.
-
-#Ex: Digite um número: 6.127. O número 6.127 tem a parte inteira 6.
+#Faça um programa que leia o comprimento do cateto oposto e do cateto adjascente de um triângulo retângulo, calcule e mostre o comprimento da hipotenusa.
 
 import math
 
-#import math
+#from math import hypot
 
-print('Desafio 17')
+print('Desafio 18')
 
-num = float(input('Informe um número real: '))
-print(f'O número sem casas decimais é: {math.trunc(num)}')
+co = int(input('Qual a medida do cateto oposto? '))
 
-#Outro jeito de ser feito:
+ca = int(input('Qual a medida do cateto adjascente? '))
 
-print(f'Outro jeito de ser feito: {int(num)}')
+hip = math.hypot(co, ca)
+
+print(f'A medida da hipotenusa é {hip}')

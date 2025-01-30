@@ -1,16 +1,13 @@
-#O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
-
-import random
+#Faça um programa em Python que abra e reproduza o áudio de um arquivo mp3
 
 print('Desafio 21')
 
-alunos = []
+import pygame
 
-alunos.append(input('Informe o nome do 1° aluno: '))
-alunos.append(input('Informe o nome do 2° aluno: '))
-alunos.append(input('Informe o nome do 3° aluno: '))
-alunos.append(input('Informe o nome do 4° aluno: '))
+#Comando para instalar a biblioteca: pip install pygame 
 
-random.shuffle(alunos)
+pygame.init() #Essa biblioteca deve ser iniciada
 
-print(f'A ordem de apresentação será {alunos}')
+pygame.mixer.music.load('d021.mp3')
+pygame.mixer.music.play()
+pygame.event.wait()

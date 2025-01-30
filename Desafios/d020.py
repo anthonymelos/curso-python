@@ -1,19 +1,16 @@
-#Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido.
+#O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
 
-import random
+from random import shuffle
 
 print('Desafio 20')
 
 alunos = []
 
-alunos.append(input('Informe o nome do 1° aluno: ')) #Função append acresenta os valores no final do vetor 
+alunos.append(input('Informe o nome do 1° aluno: '))
 alunos.append(input('Informe o nome do 2° aluno: '))
 alunos.append(input('Informe o nome do 3° aluno: '))
 alunos.append(input('Informe o nome do 4° aluno: '))
 
+shuffle(alunos)
 
-print(f'O aluno escolhido foi {random.choice(alunos)}')
-
-
-
-
+print(f'A ordem de apresentação será {alunos}')
