@@ -18,3 +18,4 @@ print(type(x))
 print(type(nome))
 
 print(nome.isupper())
+

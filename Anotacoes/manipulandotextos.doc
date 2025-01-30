@@ -1,0 +1,40 @@
+    Começando o uso em listas
+
+frase = 'Anthony de Melo'
+
+    Fatiamento
+
+-> frase[9] #Significa que está se pegando o nono caractere dessa string, no qual o primeiro caractere começa em 0...n
+
+-> frase[12:16] #Esse fatiamento de strings consiste em se pegar um pedaço dela, ou seja, do caractere 12 até o 15 da string. Deve ser um a mais (16), pois ele vai até o caractere mas não conta ele. 
+
+-> frase[12:16:2] #Isso significa que ele irá pegar a mesma quantidade, porém pulando de 2 em 2.
+
+-> frase[:5] #Isso significa a mesma coisa de pegar o intervalo [0:5], porém, relembrando, sem pegar o 5 elemento do array.
+
+-> frase[15:] #Nesse exemplo, significa que não se sabe o tamanho da string, então ele irá pegar até o final da string.
+
+-> frase [9::3] #Dessa maneira, irá pegar os elementos 9 para frente pulando de 3 em 3.
+
+    Análise de strings
+
+-> len(frase) #Função que mostra o tamanho do array: de 0 a 15 na frase.
+
+-> frase.count('n') #Na função count, está se contando quantas vezes se tem a letra 'n' minúscula. E é possível usar com fatiamento. Por exemplo, se usar a letra 'n' no intervalo de 0 a 12: frase.count('n', 0, 13).
+
+-> frase.find('de') #Significa que ele irá procurar na string quando começa os caracteres 'de', ou seja, o número da string. Quando for procurado caracteres que não existem na string, ele retorna -1. Ou seja, não existe posição de array -1.
+
+-> Operador: in #Existe o caractere 'Melo' in frase. Resposta: True.
+
+    Transformação de strings
+
+-> frase.replace('Melo', 'Queiroz') #Substitui a parte 'Melo' por 'Queiroz'.
+
+-> frase.upper() #Transforma tudo para maiúsculas.
+
+-> frase.lower() #Transforma tudo para minúsculas.
+
+-> frase.capitalize() #Transforma apenas a primeira letra 
+
+
+
