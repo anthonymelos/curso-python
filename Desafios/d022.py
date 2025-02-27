@@ -13,6 +13,12 @@ print(f'O nome com todas as letras minúsculas: {nome.lower()}')
 
 print(f'O nome possui {len(nome) - nome.count(' ')} letras')
 
-print(f'O primeiro nome tem {nome}')
 
+primNome = nome.split()
+
+print(f'O primeiro nome tem {len(primNome[0])} letras!')
+
+#Outra forma de ver quantas letras tem o primeiro nome:
+
+print(f'Outra forma de ver quantas letras tem o primeiro nome: {nome.find(' ')} letras')
 

@@ -5,15 +5,18 @@
 
 print('Desafio 23')
 
-num = (input('Digite um número entre 0 e 9999: '))
+num = int(input('Digite um número entre 0 e 9999: '))
 
-if num > 9:
-    num[2] = 0
+#n = str(num) #Transforma o número em string
 
-if num > 99:
-    num[1] = 0
+print(f'Analisando o número {num}')
 
-if num < 999: 
-    num[0] = 0
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
 
-print(f'Milhar: {num[0]} Centena: {num[1]} Dezena: {num[2]} Unidade: {num[3]}')
+print(f'Milhar: {m}')
+print(f'Centena: {c}')
+print(f'Dezena: {d} ')
+print(f'Unidade: {u}')
