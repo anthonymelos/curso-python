@@ -6,11 +6,13 @@
 print('Desafio 22')
 
 
-nome = input('Digite seu nome completo: ')
+nome = input('Digite seu nome completo: ').strip()
 
 print(f'O nome com as letras maiúsculas: {nome.upper()}')
 print(f'O nome com todas as letras minúsculas: {nome.lower()}')
 
-print(f'O nome possui {len(nome)} letras')
+print(f'O nome possui {len(nome) - nome.count(' ')} letras')
+
+print(f'O primeiro nome tem {nome}')
 
 
