@@ -1,0 +1,9 @@
+        Condições
+
+-> Sintaxe:
+
+if condicao:
+    bloco
+
+else:
+    bloco
